@@ -5,7 +5,7 @@
 
 
 .container{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     width: 100%;
    
     margin: auto;
@@ -18,7 +18,7 @@
 
 .first_section{
 
- background-color: rgb(199, 253, 237);
+ background-color: rgb(0, 0, 0);
 
 display: flex; 
 flex-direction: column;
@@ -27,8 +27,8 @@ justify-content: center;
 }
 
 .first_section_content{
-    background-color: rgb(199, 253, 237);
-    
+    background-color: rgb(0, 0, 0);
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,20 +36,31 @@ justify-content: center;
 }
 .second_section{
    
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
+    display: flex;
+
+    flex-direction: column;
+    color:white;
+    width: 80%;
+  
+}
+.second_section_contain{
+  
+}
+.ssbodymasimg{
+    display: flex;
+    flex-direction: column;
+    
+}
 .thirt_section{
     display: flex;
     flex-wrap: wrap;
    flex-direction: column;
+   color:white;
+   background-color: black;
 }
 .fourth_section{
- background-color: rgb(37, 52, 47);
+ background-color: rgb(176, 126, 11);
   width: 100%;
  
   display: flex;
@@ -63,73 +74,52 @@ justify-content: center;
 .header{
  
  margin: auto;
-
+ color: white;
  display: flex;
- justify-content:space-between;
+ justify-content:space-around;
  align-items: center;
  flex-wrap: wrap;
+ border-bottom:solid 2px white;
+ width: 80%;
 }
-.header_downloadcv{
-    background-color: rgb(170, 249, 225);
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 1rem;
-    cursor: pointer;
-    border-radius: 2rem;
-    font-size: 1rem;
-    transition: 0.3s;
-    text-decoration: none;
+
+.logo{
+  width: 5rem;
 }
-.header_downloadcv:hover{
-    background-color: rgb(148, 237, 210);
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 1rem;
-    cursor: pointer;
-    border-radius: 2rem;
-    font-size: 1rem;
-    transition: 0.3s;
-    color:white
-}
+
 .header_buttons{
     background-color: transparent;
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 1rem;
     cursor: pointer;
     margin: 0.5rem;
     font-size: 1rem;
     text-decoration: none;
-   
+    transition: 0.3s;
 }
 .header_buttons:hover{
-    background-color: transparent;
-    border: none;
-    color :rgb(128, 229, 182);
-    padding: 1rem;
-
+   transform: scale(1.1);
+    transition: 0.3s;
 }
 
 
 .first_section_presentacion{
 
     display: flex;
-    font-size: x-large;
+    font-size: medium;
+    margin-top: 2rem;
+    width: 80%;
+    flex-wrap: wrap;
+
+}
+
+.fsbody{
+    width: 50%;
+    display: flex;
     align-items: center;
-   justify-content: center;
-    text-align: left;
-  width: 50%;
-    
-
 }
 
-.first_section_presentacion_body{
-    background-color:transparent;
-    font-size: 0.9rem;
-    color: rgb(11, 10, 10);
-  
-
-}
 
 .down_button{
 
@@ -197,13 +187,13 @@ justify-content: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.3rem;
+
 
 }
 
 
 .thirt_section{
-    background-color: rgb(191, 237, 224);  
+    background-color: rgb(0, 0, 0);  
     display: flex;  
     align-items: center;
     justify-content: center;
@@ -235,7 +225,7 @@ justify-content: center;
     display: flex;
     width: 100%;
     justify-content:center;
-    background-color: rgb(191, 237, 224);
+    background-color: rgb(0, 0, 0);
 
   
 }
@@ -243,7 +233,7 @@ justify-content: center;
 .technologies_container{
     
     display: flex;
-    background-color: rgb(55, 85, 80);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 1.5rem;
     
@@ -265,7 +255,7 @@ justify-content: center;
 }
 
 .title_and_technologies_container{
-    background-color: rgb(191, 237, 224);
+    background-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
   
     display: flex;
@@ -329,3 +319,64 @@ justify-content: center;
     width: 5rem;
     cursor: pointer;
    }
+
+   
+.carrusel {
+    overflow: hidden;
+    max-width: 40rem;
+    max-height: 40rem;
+    width: 50%;
+  
+  }
+  
+  .carrusel ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 15s infinite;
+    animation-timing-function: ease;
+    align-items: center;
+  }
+  
+  .carrusel li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  .carrusel img {
+    width: 80%;
+    max-width: 30rem;
+   
+    
+  }
+  @keyframes cambio {
+    16.66% {
+      margin-left: 0;
+    }
+  
+    33.33% {
+      margin-left: -100%;
+    }
+  
+    49.99% {
+      margin-left: -100%;
+    }
+  
+    66.65% {
+      margin-left: -200%;
+    }
+  
+    83.31% {
+      margin-left: -200%;
+    }
+  
+    100% {
+      margin-left: -0%;
+    }
+  }
+
+  .bigimg{
+    height: 15rem;
+    width: 15rem;
+    margin: 0 auto;
+  }
