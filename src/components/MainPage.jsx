@@ -67,9 +67,9 @@ export default function MainPage(){
                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ut asperiores illo vel quae veritatis adipisci nemo, mollitia sunt necessitatibus nulla quod! Omnis illo harum aliquid cum! Illo, voluptatibus atque.
                          </body>
             </div>        */}
-            <div className={styles.textoDescripcion}>
+          <div className={styles.textoDescripcion}>
 
-            <h6>Nos dedicamos a mejorar la imagen de nuestros clientes.
+<h6>Nos dedicamos a mejorar la imagen de nuestros clientes.
 
 El objetivo es brindar el mejor servicio y marcar tendencia.
 
@@ -80,8 +80,10 @@ Queremos que SALMOS 34 sea tu lugar donde, más allá de cambiar tu look,
 puedas relajarte y encontrarte con amigos.
 
 - Te esperamos -
-          </h6>
-            </div>
+</h6>
+
+</div>
+<hr />
            </div>
             
           
