@@ -16,20 +16,20 @@ import "bootstrap/dist/css/bootstrap.min.css"
 const items = [
   {
     src: corte1,
-    altText: 'Slide 1',
-    caption: 'Slide 1',
+    altText: '',
+    caption: '',
     key: 1,
   },
   {
     src: corte2,
-    altText: 'Slide 2',
-    caption: 'Slide 2',
+    altText: ' ',
+    caption: '',
     key: 2,
   },
   {
     src: corte3,
-    altText: 'Slide 3',
-    caption: 'Slide 3',
+    altText: ' ',
+    caption: ' ',
     key: 3,
   },
 ];
