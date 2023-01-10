@@ -29,7 +29,7 @@ import corte3 from "./corte3.jpg"
 import bigimg from "./salmoslittle.png"
 import ubicacionimg from "./ubicacion.png"
 
-
+import Example from "./Example"
 
 export default function MainPage(){
 
@@ -46,11 +46,9 @@ export default function MainPage(){
              
             </div>
           <div className={styles.first_section}>
-            <div className={styles.first_section_content}>
-           <div className={styles.first_section_presentacion}>
-        
-              
-            <div className={styles.carrusel}>
+          
+              {<Example/>}
+            {/* <div className={styles.carrusel}>
               <div>
                 <ul>
                  {[corte1, corte2, corte3].map(element => {
@@ -68,12 +66,25 @@ export default function MainPage(){
                          <body>
                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ut asperiores illo vel quae veritatis adipisci nemo, mollitia sunt necessitatibus nulla quod! Omnis illo harum aliquid cum! Illo, voluptatibus atque.
                          </body>
-            </div>       
+            </div>        */}
+            <div className={styles.textoDescripcion}>
+
+            <h6>Nos dedicamos a mejorar la imagen de nuestros clientes.
+
+El objetivo es brindar el mejor servicio y marcar tendencia.
+
+Por eso construimos un espacio en el mundo para que disfrutes y te sientas cómodo.
+
+Queremos que SALMOS 34 sea tu lugar donde, más allá de cambiar tu look,
+
+puedas relajarte y encontrarte con amigos.
+
+- Te esperamos -
+          </h6>
+            </div>
            </div>
             
-            </div>
           
-          </div>
 
           <div className={styles.second_section} id="seccion-2">
           
@@ -83,25 +94,25 @@ export default function MainPage(){
                 <br/>
                 <br/>
                 <div className={styles.second_section_contain}>
-            <body>
+            <h6>
               Corte con navaja: $1000
-            </body>
+            </h6>
             <br />
-            <body>
+            <h6>
               Corte sin navaja: $800
-            </body>
+            </h6>
             <br />
-            <body>
+            <h6>
               Corte con navaja + barba: $1200
-            </body>
+            </h6>
             <br />
-            <body>
+            <h6>
               Claritos hombre desde: $3000
-            </body>
+            </h6>
             <br />
-            <body>
+            <h6>
               Corte + Claritos: $3800
-            </body>
+            </h6>
             <br />
             <br /><br />
             <hr />         
@@ -113,17 +124,18 @@ export default function MainPage(){
                
             
                          <h3>Horarios de atención</h3>
-            <body>
+                         <br /><br />
+            <h6>
               Martes a viernes de 11:00 a 21:00hs
-            </body>
+            </h6>
             <br />
-            <body>
+            <h6>
               Sábados de 11:00 a 17:00hs
-            </body>
+            </h6>
             <br />
-            <body>
+            <h6>
               Domingos de 12:00 a 21:00hs
-            </body>
+            </h6>
             <br />       
 
             </div>
